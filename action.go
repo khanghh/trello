@@ -46,6 +46,7 @@ type ActionDataCard struct {
 	Name      string  `json:"name"`
 	IDShort   int     `json:"idShort"`
 	ShortLink string  `json:"shortLink"`
+  IdList    string  `json:"idList"`
 	Pos       float64 `json:"pos"`
 	Closed    bool    `json:"closed"`
 }
